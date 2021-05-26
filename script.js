@@ -38,7 +38,7 @@ const months=[
 //to get month and date dynamically
 
 document.querySelector('.date h1').innerHTML=months[date.getMonth()];//gets the system month on the h1 tag
-//document.querySelector('.date p').innerHTML=date.toDateString();
+document.querySelector('.date p').innerHTML=date.toDateString();
 
 //to get the days dynamically
 
@@ -80,3 +80,4 @@ document.querySelector('.next').addEventListener('click',()=>{
     date.setMonth(date.getMonth()+1);
     renderCalendar();
 })
+renderCalendar();
