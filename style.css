@@ -86,9 +86,12 @@ html {
   border: 0.2rem solid #777;
   cursor: pointer;
 }
-.prev-date,
-.next-date {
+.prev-month,
+.next-month {
   opacity: 0.5;
+}
+.today {
+  background-color: #167e56;
 }
 .today {
   background-color: #167e56;
